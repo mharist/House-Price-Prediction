@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data (We usually don't commit large datasets to git)
+data/
+
+# Models (Large model files shouldn't be committed if >100MB)
+*.pkl
+*.joblib
